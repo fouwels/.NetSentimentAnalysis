@@ -16,3 +16,10 @@ E:\Dropbox\projects\SentimentAnalysisWin32Library\TestApp\bin\Debug\SentimentAna
 E:\Dropbox\projects\SentimentAnalysisWin32Library\TestApp\bin\Debug\SentimentAnalysisWin32Library.pdb
 E:\User1\SkyDrive\MyDocs\dev\DesktopWin32\C#\SentimentAnalysisWin32Library\TestApp\obj\Debug\TestApp.exe
 E:\User1\SkyDrive\MyDocs\dev\DesktopWin32\C#\SentimentAnalysisWin32Library\TestApp\obj\Debug\TestApp.pdb
+E:\User1\SkyDrive\MyDocs\dev\DesktopWin32\2013\CS_SentimentAnalysisWin32Library\TestApp\obj\Debug\TestApp.exe
+E:\User1\SkyDrive\MyDocs\dev\DesktopWin32\2013\CS_SentimentAnalysisWin32Library\TestApp\obj\Debug\TestApp.pdb
+E:\User1\SkyDrive\MyDocs\dev\DesktopWin32\2013\CS_SentimentAnalysisWin32Library\TestApp\bin\Debug\TestApp.exe
+E:\User1\SkyDrive\MyDocs\dev\DesktopWin32\2013\CS_SentimentAnalysisWin32Library\TestApp\bin\Debug\TestApp.pdb
+E:\User1\SkyDrive\MyDocs\dev\DesktopWin32\2013\CS_SentimentAnalysisWin32Library\TestApp\bin\Debug\SentimentAnalysisWin32Library.dll
+E:\User1\SkyDrive\MyDocs\dev\DesktopWin32\2013\CS_SentimentAnalysisWin32Library\TestApp\bin\Debug\SentimentAnalysisWin32Library.pdb
+E:\User1\SkyDrive\MyDocs\dev\DesktopWin32\2013\CS_SentimentAnalysisWin32Library\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
