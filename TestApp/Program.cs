@@ -20,13 +20,13 @@ namespace TestApp
         }
         static void TestRoutine2()
         {
-            loader loader1 = new loader();
+            Loader loader1 = new Loader();
             char[] separators = new char[] {' '};
 
-            Dictionary<string,sbyte> wordList = loader1.loadDictionaryFromTxt("E:/Dropbox/projects/SentimentAnalysisWin32Library/Data/wordList1.txt", separators);
-            Dictionary<string,sbyte> intensifiers = loader1.loadDictionaryFromTxt("E:/Dropbox/projects/SentimentAnalysisWin32Library/Data/intensifiers1.txt", separators);
-            Dictionary<string,sbyte> inverters = loader1.loadDictionaryFromTxt("E:/Dropbox/projects/SentimentAnalysisWin32Library/Data/inverters1.txt", separators);
-            string[] inputData = loader1.loadStringArrayFromTxt("E:/Dropbox/projects/SentimentAnalysisWin32Library/Data/inputData1.txt");
+            Dictionary<string,sbyte> wordList = loader1.LoadDictionaryFromTxt("E:/User1/SkyDrive/MyDocs/dev/DesktopWin32/2013/CS_SentimentAnalysisWin32Library/TestData/wordList1.txt", separators);
+            Dictionary<string,sbyte> intensifiers = loader1.LoadDictionaryFromTxt("E:/User1/SkyDrive/MyDocs/dev/DesktopWin32/2013/CS_SentimentAnalysisWin32Library/TestData/intensifiers1.txt", separators);
+            Dictionary<string,sbyte> inverters = loader1.LoadDictionaryFromTxt("E:/User1/SkyDrive/MyDocs/dev/DesktopWin32/2013/CS_SentimentAnalysisWin32Library/TestData/inverters1.txt", separators);
+            string[] inputData = loader1.LoadStringArrayFromTxt("E:/User1/SkyDrive/MyDocs/dev/DesktopWin32/2013/CS_SentimentAnalysisWin32Library/TestData/inputData1.txt");
 
             Console.WriteLine("Loaded ALL");
 
@@ -39,34 +39,5 @@ namespace TestApp
             Console.ReadKey();
         
         }
-       // static void TestRoutine1()
-       // {
-       //     SentimentAnalyser SentimentAnalyser1 = new SentimentAnalyser();
-       //     loader Loader1 = new loader();
-
-       //     FakeDictionary[] testdictionary1;
-
-       //     char[] separators2 = new char[] { ':', ' ' };
-
-       //     testdictionary1 = Loader1.loadFakeDictionaryFromTxt("H:/Dropbox/projects/SentimentAnalysisWin32Library/Data/wordList1OLDTEST.txt", separators2);
-
-       //     for (int z = 0; z < testdictionary1.Length; z++)
-       //     {
-       //         Console.Write(testdictionary1[z].key + " >> ");
-       //         Console.WriteLine(testdictionary1[z].value);
-       //     }
-       //     Console.ReadKey();
-
-       //     string[] testArray1;
-
-       //     testArray1 = Loader1.loadStringArrayFromTxt("H:/Dropbox/projects/SentimentAnalysisWin32Library/Data/inputData1.txt");
-
-       //     for (int j = 0; j < testArray1.Length; j++)
-       //     {
-       //         Console.WriteLine(testArray1[j]);
-       //     }
-       //     Console.ReadKey();
-        
-       // }
     }
 }
