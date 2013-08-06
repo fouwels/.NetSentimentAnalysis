@@ -13,7 +13,7 @@ This allows for rudimentary phrases to be interpreted, rather than simply lookin
 
 Code in /src/
 Test Data in /dat/
-Build .Dll in /bin/
+Built .Dll in /bin/
 
 #####Kaelan Fouwels 2012
 
