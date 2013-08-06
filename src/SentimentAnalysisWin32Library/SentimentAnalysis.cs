@@ -92,7 +92,7 @@ namespace kfouwels.lib.SentimentAnalysis
                 }
             } // end For
 
-            return (sentimentValue/wordsFound);
+			return (sentimentValue / (wordsFound == 0 ? 1 : wordsFound));
         }
     }
 }
