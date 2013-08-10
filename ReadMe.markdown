@@ -14,7 +14,7 @@ This allows for rudimentary phrases to be interpreted, rather than simply lookin
 See /bin/ for built .DLL binarys
 
 Example Usage
-```
+```csharp
 using kfouwels.lib.SentimentAnalysis;
 
 static void TestRoutine()
