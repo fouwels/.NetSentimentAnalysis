@@ -11,25 +11,26 @@ The algorithm runs through the statement until it encounters a word relating to 
 
 This allows for rudimentary phrases to be interpreted, rather than simply looking for key words.
 
-See /bin/ for the built .DLL binary
+See /bin/ for built .DLL binarys
 
 Example Usage
 ```
-	static void TestRoutine()
-    {
-        char[] separators = {' '};
+using kfouwels.lib.SentimentAnalysis;
 
-        Dictionary<string,sbyte> wordList = Loaders.LoadDictionaryFromTxt("wordList1.txt", separators);
-        Dictionary<string,sbyte> intensifiers = Loaders.LoadDictionaryFromTxt("intensifiers1.txt", separators);
-        Dictionary<string,sbyte> inverters = Loaders.LoadDictionaryFromTxt("inverters1.txt", separators);
+static void TestRoutine()
+{
+    char[] separators = {' '};
 
-        var sentimentAnalyser1 = new SentimentAnalyser(wordList, inverters, intensifiers, true);
+    Dictionary<string,sbyte> wordList = Loaders.LoadDictionaryFromTxt("wordList1.txt", separators);
+    Dictionary<string,sbyte> intensifiers = Loaders.LoadDictionaryFromTxt("intensifiers1.txt", separators);
+    Dictionary<string,sbyte> inverters = Loaders.LoadDictionaryFromTxt("inverters1.txt", separators);
 
-        string[] inputData = Loaders.LoadStringArrayFromTxt("inputData1.txt");
+    var sentimentAnalyser1 = new SentimentAnalyser(wordList, inverters, intensifiers, true);
 
-        var result = sentimentAnalyser1.Analyse(inputData).ToString());        
-    }
+    string[] inputData = Loaders.LoadStringArrayFromTxt("inputData1.txt");
 
+    var result = sentimentAnalyser1.Analyse(inputData).ToString());        
+}
 ```
 
 #####Kaelan Fouwels 2012
