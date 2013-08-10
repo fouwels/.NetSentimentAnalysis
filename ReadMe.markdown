@@ -1,7 +1,7 @@
 #Sentiment Analysis Libary
 ####Win32 Libary
 
-Runs language processing on a statement to determine a score based on key combinations of words and rudimentary phrases
+Runs language processing on string input to determine a score based on key combinations of words and rudimentary phrases
 
 The algorithm runs through the statement until it encounters a word relating to sentiment, this is then compared with the surrounding words to determine the context, and calculate how much it should influence the overall sentiment "score"
 
@@ -11,10 +11,27 @@ The algorithm runs through the statement until it encounters a word relating to 
 
 This allows for rudimentary phrases to be interpreted, rather than simply looking for key words.
 
-Code in /src/
-Test Data in /dat/
-Built .Dll in /bin/
+See /bin/ for the built .DLL binary
+
+Example Usage
+```
+	static void TestRoutine()
+    {
+        char[] separators = {' '};
+
+        Dictionary<string,sbyte> wordList = Loaders.LoadDictionaryFromTxt("wordList1.txt", separators);
+        Dictionary<string,sbyte> intensifiers = Loaders.LoadDictionaryFromTxt("intensifiers1.txt", separators);
+        Dictionary<string,sbyte> inverters = Loaders.LoadDictionaryFromTxt("inverters1.txt", separators);
+
+        var sentimentAnalyser1 = new SentimentAnalyser(wordList, inverters, intensifiers, true);
+
+        string[] inputData = Loaders.LoadStringArrayFromTxt("inputData1.txt");
+
+        var result = sentimentAnalyser1.Analyse(inputData).ToString());        
+    }
+
+```
 
 #####Kaelan Fouwels 2012
 
-######This was initially hacked together for use with a hackday project (analysing tweets to determine "how the world feels" about a topic) - code is still a little hacky.
+######This was initially hacked together for use with a hackday project - code is still a little hacky.
