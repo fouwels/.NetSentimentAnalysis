@@ -33,6 +33,4 @@ static void TestRoutine()
 }
 ```
 
-#####Kaelan Fouwels 2012
-
-######This was initially hacked together for use with a hackday project - code is still a little hacky.
+#####Kaelan Fouwels 2012-13

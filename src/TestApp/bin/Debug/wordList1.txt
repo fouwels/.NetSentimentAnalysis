@@ -2,6 +2,6 @@ sad -100
 :( -50
 happy 100
 :) 50
-good 50
-bad -50
+good 75
+bad -75
 ~

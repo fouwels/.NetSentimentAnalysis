@@ -31,11 +31,14 @@ namespace TestApp
 
 	        var sentimentAnalyser1 = new SentimentAnalyser(wordList, inverters, intensifiers, true);
 
-            Console.WriteLine("\n" + sentimentAnalyser1.Analyse(inputData).ToString() + "%"); //<---------
-            Console.WriteLine("++++++++++++++++++++++++++++++++++++");
-            Console.WriteLine("DONE");
+            Console.WriteLine("\n>>" + sentimentAnalyser1.Analyse(inputData).ToString() + "%"); //<---------
             Console.ReadKey();
-        
         }
+
+	    static void twitter(string hashtag, string handle)
+	    {
+		    
+
+	    }
     }
 }

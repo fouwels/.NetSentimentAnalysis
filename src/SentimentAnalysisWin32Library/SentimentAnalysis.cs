@@ -49,7 +49,7 @@ namespace kfouwels.lib.SentimentAnalysis
                         {
                             //intensifiers - inverters - word
                             w = _wordlist[words[wordCycler]];
-                            v = _intensifiers[words[wordCycler]];
+                            v = _intensifiers[words[wordCycler - 2]];
 
                             sentimentValue += ((w + (w*v/100))*-1);
                         }
@@ -68,7 +68,7 @@ namespace kfouwels.lib.SentimentAnalysis
                                 //inverters - intensifiers - word
 
                                 w = _wordlist[words[wordCycler]];
-                                v = _intensifiers[words[wordCycler]];
+                                v = _intensifiers[words[wordCycler - 1]];
 
                                 sentimentValue += ((w + (w*v/100))*-1);
                             }
@@ -78,7 +78,7 @@ namespace kfouwels.lib.SentimentAnalysis
                                 //+= (w + (w * v /100))
 
                                 w = _wordlist[words[wordCycler]];
-                                v = _intensifiers[words[wordCycler]];
+                                v = _intensifiers[words[wordCycler - 1]];
 
                                 sentimentValue += (w + (w*v/100));
                             }
