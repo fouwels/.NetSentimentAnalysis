@@ -39,11 +39,5 @@ namespace TestApp
             Console.WriteLine("\n>>" + sentimentAnalyser1.Analyse(inputData).ToString() + "%"); //<---------
             Console.ReadKey();
         }
-
-	    static void twitter(string hashtag, string handle)
-	    {
-		    
-
-	    }
     }
 }
