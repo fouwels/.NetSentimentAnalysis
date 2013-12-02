@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using kfouwels.lib.Loaders;
 using kfouwels.lib.SentimentAnalysis;
 
@@ -17,6 +18,9 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
+			var writer = new TextWriterTraceListener(System.Console.Out); //Patch debug output into the console
+			Debug.Listeners.Add(writer);
+
             TestRoutine2();
         }
         static void TestRoutine2()
