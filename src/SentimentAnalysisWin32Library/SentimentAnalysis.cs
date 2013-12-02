@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace kfouwels.lib.SentimentAnalysis
 {
@@ -37,7 +38,7 @@ namespace kfouwels.lib.SentimentAnalysis
             {
 	            if (_verbose)
 	            {
-		            Console.WriteLine("processing {0}", words[wordCycler]);
+		            Debug.WriteLine("processing {0}", words[wordCycler]);
 	            }
 
 	            if (_wordlist.ContainsKey(words[wordCycler]))

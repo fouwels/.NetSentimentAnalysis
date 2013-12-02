@@ -1,5 +1,5 @@
 #Sentiment Analysis Libary
-####Win32 Libary
+####<del>Win32</del> Portable class Libary
 
 Runs language processing on string input to determine a score based on key combinations of words and rudimentary phrases
 
@@ -32,5 +32,13 @@ static void TestRoutine()
     var result = sentimentAnalyser1.Analyse(inputData).ToString());        
 }
 ```
+
+Supported on targeted frameworks
+
+- .Net 4+
+- Silverlight 4+
+- Windows Phone 7+
+- Windows Store
+- Xbox 360
 
 #####Kaelan Fouwels 2012-13
