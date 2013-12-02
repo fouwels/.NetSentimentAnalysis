@@ -26,49 +26,49 @@ namespace kfouwels.lib.SentimentAnalysis
 			_verbose = verbose;
         }
 
-        public decimal Analyse(string[] word)
+        public double Analyse(string[] words)
         {
-            decimal sentimentValue = 0; //Master value of awesomeness
-            decimal wordsFound = 0;
-            decimal v; //Temp value for calculations
-            decimal w; //Temp value for calculations
+            double sentimentValue = 0; //Master value of awesomeness
+	        Int64 wordsFound = 0;
+	        float v; //Temp value for calculations
+            float w; //Temp value for calculations
 
-            for (int wordCycler = 0; wordCycler < word.Length; wordCycler++) //Cycle word
+            for (Int64 wordCycler = 0; wordCycler < words.Length; wordCycler++) //Cycle word
             {
 	            if (_verbose)
 	            {
-		            Console.WriteLine("processing {0}", word[wordCycler]);
+		            Console.WriteLine("processing {0}", words[wordCycler]);
 	            }
 
-	            if (_wordlist.ContainsKey(word[wordCycler]))
+	            if (_wordlist.ContainsKey(words[wordCycler]))
                 {
                     wordsFound++;
-                    if (_inverters.ContainsKey(word[wordCycler - 1]))
+                    if (_inverters.ContainsKey(words[wordCycler - 1]))
                     {
-                        if (_intensifiers.ContainsKey(word[wordCycler - 2]))
+                        if (_intensifiers.ContainsKey(words[wordCycler - 2]))
                         {
                             //intensifiers - inverters - word
-                            w = _wordlist[word[wordCycler]];
-                            v = _intensifiers[word[wordCycler]];
+                            w = _wordlist[words[wordCycler]];
+                            v = _intensifiers[words[wordCycler]];
 
                             sentimentValue += ((w + (w*v/100))*-1);
                         }
                         else
                         {
                             //inverters - word
-                            sentimentValue += (_wordlist[word[wordCycler]]*-1); // -1 inverts
+                            sentimentValue += (_wordlist[words[wordCycler]]*-1); // -1 inverts
                         }
                     }
                     else
                     {
-                        if (_intensifiers.ContainsKey(word[wordCycler - 1]))
+                        if (_intensifiers.ContainsKey(words[wordCycler - 1]))
                         {
-                            if (_inverters.ContainsKey(word[wordCycler - 2]))
+                            if (_inverters.ContainsKey(words[wordCycler - 2]))
                             {
                                 //inverters - intensifiers - word
 
-                                w = _wordlist[word[wordCycler]];
-                                v = _intensifiers[word[wordCycler]];
+                                w = _wordlist[words[wordCycler]];
+                                v = _intensifiers[words[wordCycler]];
 
                                 sentimentValue += ((w + (w*v/100))*-1);
                             }
@@ -77,8 +77,8 @@ namespace kfouwels.lib.SentimentAnalysis
                                 // intensifiers - word
                                 //+= (w + (w * v /100))
 
-                                w = _wordlist[word[wordCycler]];
-                                v = _intensifiers[word[wordCycler]];
+                                w = _wordlist[words[wordCycler]];
+                                v = _intensifiers[words[wordCycler]];
 
                                 sentimentValue += (w + (w*v/100));
                             }
@@ -86,7 +86,7 @@ namespace kfouwels.lib.SentimentAnalysis
                         else
                         {
                             //word
-                            sentimentValue += _wordlist[word[wordCycler]];
+                            sentimentValue += _wordlist[words[wordCycler]];
                         }
                     }
                 }

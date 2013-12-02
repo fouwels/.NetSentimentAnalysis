@@ -23,3 +23,8 @@ G:\User\Local\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysis
 G:\User\Local\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\obj\Debug\SentimentAnalysisWin32Library.csprojResolveAssemblyReference.cache
 G:\User\Local\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\obj\Debug\SentimentAnalysisWin32Library.dll
 G:\User\Local\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\obj\Debug\SentimentAnalysisWin32Library.pdb
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\bin\Debug\SentimentAnalysisWin32Library.dll
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\bin\Debug\SentimentAnalysisWin32Library.pdb
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\obj\Debug\SentimentAnalysisWin32Library.csprojResolveAssemblyReference.cache
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\obj\Debug\SentimentAnalysisWin32Library.dll
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\obj\Debug\SentimentAnalysisWin32Library.pdb

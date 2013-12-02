@@ -37,3 +37,10 @@ G:\User\Local\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug
 G:\User\Local\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug\SentimentAnalysisWin32Library.dll
 G:\User\Local\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug\SentimentAnalysisWin32Library.pdb
 G:\User\Local\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\obj\Debug\TestApp.pdb
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug\TestApp.exe
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug\TestApp.pdb
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug\SentimentAnalysisWin32Library.dll
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug\SentimentAnalysisWin32Library.pdb
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\obj\Debug\TestApp.exe

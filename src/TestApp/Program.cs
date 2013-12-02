@@ -25,13 +25,13 @@ namespace TestApp
             Dictionary<string,sbyte> wordList = Loaders.LoadDictionaryFromTxt("wordList1.txt", separators);
             Dictionary<string,sbyte> intensifiers = Loaders.LoadDictionaryFromTxt("intensifiers1.txt", separators);
             Dictionary<string,sbyte> inverters = Loaders.LoadDictionaryFromTxt("inverters1.txt", separators);
-            string[] inputData = Loaders.LoadStringArrayFromTxt("inputData1.txt");
+            string[] inputData = Loaders.LoadStringArrayFromTxt("inputData2.txt");
 
             Console.WriteLine("Loaded ALL");
 
 	        var sentimentAnalyser1 = new SentimentAnalyser(wordList, inverters, intensifiers, true);
 
-            Console.WriteLine(sentimentAnalyser1.Analyse(inputData).ToString()); //<---------
+            Console.WriteLine("\n" + sentimentAnalyser1.Analyse(inputData).ToString() + "%"); //<---------
             Console.WriteLine("++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("DONE");
             Console.ReadKey();
