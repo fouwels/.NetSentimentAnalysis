@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace kfouwels.lib.SentimentAnalysis
+namespace kfouwels.lib.Loaders
 {
     public static class Loaders
     {

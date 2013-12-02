@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentimentAnalysisWin32Library", "SentimentAnalysisWin32Library\SentimentAnalysisWin32Library.csproj", "{45196781-AC54-49B1-BB00-5028917C6013}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentimentAnalysis", "SentimentAnalysisWin32Library\SentimentAnalysis.csproj", "{45196781-AC54-49B1-BB00-5028917C6013}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{58286C7F-DFDD-4125-B940-FE30B0AF46A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loaders", "Loaders\Loaders.csproj", "{80A95B11-FBED-4184-AEC1-F80BDCD0ADB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{58286C7F-DFDD-4125-B940-FE30B0AF46A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58286C7F-DFDD-4125-B940-FE30B0AF46A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58286C7F-DFDD-4125-B940-FE30B0AF46A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A95B11-FBED-4184-AEC1-F80BDCD0ADB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A95B11-FBED-4184-AEC1-F80BDCD0ADB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A95B11-FBED-4184-AEC1-F80BDCD0ADB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A95B11-FBED-4184-AEC1-F80BDCD0ADB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

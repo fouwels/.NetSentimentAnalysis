@@ -1,0 +1,5 @@
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\Loaders\bin\Debug\Loaders.dll
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\Loaders\bin\Debug\Loaders.pdb
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\Loaders\obj\Debug\Loaders.csprojResolveAssemblyReference.cache
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\Loaders\obj\Debug\Loaders.dll
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\Loaders\obj\Debug\Loaders.pdb

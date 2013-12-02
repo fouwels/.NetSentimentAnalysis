@@ -1,0 +1,4 @@
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\bin\Debug\SentimentAnalysisWin32Library.dll
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\bin\Debug\SentimentAnalysisWin32Library.pdb
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\obj\Debug\SentimentAnalysisWin32Library.dll
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\SentimentAnalysisWin32Library\obj\Debug\SentimentAnalysisWin32Library.pdb

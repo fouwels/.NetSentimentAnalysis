@@ -44,3 +44,5 @@ G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug\Senti
 G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug\SentimentAnalysisWin32Library.pdb
 G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
 G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\obj\Debug\TestApp.exe
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug\Loaders.dll
+G:\User\Dev\Win32\2013\SentimentAnalysisWin32Library\src\TestApp\bin\Debug\Loaders.pdb

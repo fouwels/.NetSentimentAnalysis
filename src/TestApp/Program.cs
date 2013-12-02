@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using kfouwels.lib.Loaders;
 using kfouwels.lib.SentimentAnalysis;
 
 //Load wordlist >> Dictionary[]
