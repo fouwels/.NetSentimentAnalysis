@@ -11,7 +11,7 @@ The algorithm runs through the statement until it encounters a word relating to 
 
 This allows for rudimentary phrases to be interpreted, rather than simply looking for key words.
 
-See /bin/ for built .DLL binarys
+See /bin/ for built .DLL binaries
 
 Example Usage
 ```csharp
@@ -40,5 +40,3 @@ Supported on targeted frameworks
 - Windows Phone 7+
 - Windows Store
 - Xbox 360
-
-#####Kaelan Fouwels 2012-13
